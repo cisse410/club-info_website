@@ -4,6 +4,9 @@ import logo from "../assets/images/Screenshot 2023-10-10 at 10-56-26 set info cl
 import flagFrance from "../assets/images/flagFrance.png";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
+import Projets from './projets';
+import Blogs from './blogs';
+import Events from './event';
 // import { FiSun } from "react-icons/fi";
 // import { BsFillMoonStarsFill } from "react-icons/bs";
 // import { TypeAnimation } from 'react-type-animation';
@@ -31,16 +34,16 @@ function Header() {
           <div className="text-xl md:flex hidden ">
             <ul className="flex gap-x-10 ">
               <li className="w-fit h-fit px-2 py-2 rounded-lg hover:bg-gray-700">
-                <a href="#acceuil">Accueil</a>
+                <a href="/">Accueil</a>
               </li>
               <li className="w-fit h-fit px-2 py-2 rounded-lg hover:bg-gray-700">
-                <a href="#projets">Projets</a>
+                <a href="/Projets">Projets</a>
               </li>
               <li className="w-fit h-fit px-2 py-2 rounded-lg hover:bg-gray-700">
-                <a href="#evenement">Evenements</a>
+                <a href="/Evenements">Evenements</a>
               </li>
               <li className="w-fit h-fit px-2 py-2 rounded-lg hover:bg-gray-700">
-                <a href="#blog">Blog</a>
+                <a href="/Blogs">Blog</a>
               </li>
               <li className="w-fit h-fit px-2 py-2 rounded-lg hover:bg-gray-700">
                 <a href="#about">A propos</a>
@@ -93,16 +96,16 @@ function Header() {
           <div className="text-xl my-2 flex  ">
             <ul className="flex  flex-col text-gray-400 items-center gap-y-10 ">
               <li className="w-fit h-fit px-2 py-1 rounded-lg hover:bg-gray-700">
-                <a href="#acceuil">Accueil</a>
+                <a href="/">Accueil</a>
               </li>
               <li className="w-fit h-fit px-2 py-1 rounded-lg hover:bg-gray-700">
-                <a href="#projets">Projets</a>
+                <a href="/Projets">Projets</a>
               </li>
               <li className="w-fit h-fit px-2 py-1 rounded-lg hover:bg-gray-700">
-                <a href="#evenement">Evenements</a>
+                <a href="/Evenements">Evenements</a>
               </li>
               <li className="w-fit h-fit px-2 py-1 rounded-lg hover:bg-gray-700">
-                <a href="#blog">Blog</a>
+                <a href="/Blogs">Blog</a>
               </li>
               <li className="w-fit h-fit px-2 py-1 rounded-lg hover:bg-gray-700">
                 <a href="#about">A propos</a>

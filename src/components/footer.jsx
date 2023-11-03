@@ -12,16 +12,16 @@ function Footer() {
         </div>
         <ul className="items-center justify-center text-center mt-8 space-y-5 sm:flex sm:space-x-4 sm:space-y-0">
           <li className=" hover:text-white">
-            <a href="#">Accueil</a>
+            <a href="/">Accueil</a>
           </li>
           <li className=" hover:text-white">
-            <a href="#">Projets</a>
+            <a href="/Projets">Projets</a>
           </li>
           <li className=" hover:text-white">
-            <a href="#">Evenements</a>
+            <a href="/Evenements">Evenements</a>
           </li>
           <li className=" hover:text-white">
-            <a href="#">Blog</a>
+            <a href="/Blogs">Blog</a>
           </li>
           <li className=" hover:text-white">
             <a href="#">A propos</a>
