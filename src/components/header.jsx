@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import logo from "../assets/images/Screenshot 2023-10-10 at 10-56-26 set info club.png";
 // import {Link} from 'react-router-dom'
 import flagFrance from "../assets/images/flagFrance.png";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
-import Projets from './projets';
-import Blogs from './blogs';
-import Events from './event';
+//import Projets from './projets';
+//import Blogs from './blogs';
+//import Events from './event';
 // import { FiSun } from "react-icons/fi";
 // import { BsFillMoonStarsFill } from "react-icons/bs";
 // import { TypeAnimation } from 'react-type-animation';
@@ -36,6 +36,7 @@ function Header() {
               <li className="w-fit h-fit px-2 py-2 rounded-lg hover:bg-gray-700">
                 <a href="/">Accueil</a>
               </li>
+               {/*  */}
               <li className="w-fit h-fit px-2 py-2 rounded-lg hover:bg-gray-700">
                 <a href="/Projets">Projets</a>
               </li>
@@ -46,17 +47,21 @@ function Header() {
                 <a href="/Blogs">Blog</a>
               </li>
               <li className="w-fit h-fit px-2 py-2 rounded-lg hover:bg-gray-700">
-                <a href="#about">A propos</a>
+                <a href="/Ressources">Ressources</a>
+              </li>
+              <li className="w-fit h-fit px-2 py-2 rounded-lg hover:bg-gray-700">
+                <a href="/Abouts">A propos</a>
               </li>
             </ul>
           </div>
           {/* Traduction */}
-          <div className="flex gap-x-3 items-center ">
-            <button
+          <div className="flex gap-x-3 items-center ">  
+              <button
               type="button"
               data-dropdown-toggle="language-dropdown-menu"
               className=" hidden md:inline-flex items-center gap-x-2 font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer   bg-gray-700 dark:hover:text-white"
             >
+              
               <img
                 src={flagFrance}
                 className="w-[25px] h-[25px] rounded-full border-white border-2"
@@ -106,6 +111,9 @@ function Header() {
               </li>
               <li className="w-fit h-fit px-2 py-1 rounded-lg hover:bg-gray-700">
                 <a href="/Blogs">Blog</a>
+              </li>
+              <li className="w-fit h-fit px-2 py-1 rounded-lg hover:bg-gray-700">
+                <a href="/Ressources">Ressources</a>
               </li>
               <li className="w-fit h-fit px-2 py-1 rounded-lg hover:bg-gray-700">
                 <a href="#about">A propos</a>

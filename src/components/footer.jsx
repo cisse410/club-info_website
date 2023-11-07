@@ -24,12 +24,15 @@ function Footer() {
             <a href="/Blogs">Blog</a>
           </li>
           <li className=" hover:text-white">
+            <a href="/Ressources">Ressources</a>
+          </li>
+          <li className=" hover:text-white">
             <a href="#">A propos</a>
           </li>
         </ul>
         <div className="mt-8 items-center justify-between  sm:flex">
           <div className="mt-4 sm:mt-0">
-            &copy; 2023 Set Info Club All rights reserved.
+            &copy; 2023 Set Info Club All rights reserved. Product by <a href="/Developers" className="text-white">DEV</a>
           </div>
           <div className="mt-6 sm:mt-0">
             <ul className="flex items-center justify-center space-x-4">

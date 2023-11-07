@@ -2,14 +2,11 @@ import React from "react";
 import weekendtech from '../assets/images/weekendtech.jpg'
 function Events() {
     return(
-        <div>
+        <div className="bg-white">
             <div class="flex items-center justify-center  max-w-screen-2xl ">
  
                 <div class="w-1/2 mx-auto w-full max-w-screen-xl mx-auto p-4 md:p-8 ">
-                        {/* <!-- Contenu de la deuxième div
-                        Div des evenement deja fais maximum 10 evement-->*/}
-                        
-                        <ol class="relative border-l border-gray-200  dark:border-gray-700 ">                  
+                       <ol class="relative border-l border-gray-200  dark:border-gray-700 ">                  
                                 <li class="mb-10 ml-6">            
                                         <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                                             <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
